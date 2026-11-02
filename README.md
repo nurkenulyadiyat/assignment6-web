@@ -4,8 +4,8 @@ A small, multi-page website demonstrating jQuery selectors, effects, DOM manipul
 
 - **Student:** Adiyat Nurkenuly
 - **Group:** SE-2527
-- **GitHub repository:** 
-- **Live website:** 
+- **GitHub repository:** https://github.com/nurkenulyadiyat/assignment6-web
+- **Live website:** https://nurkenulyadiyat.github.io/assignment6-web/
 
 ## Run the project
 
