@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM | jQuery Assignment 6</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <a class="brand" href="index.html">jQuery Practice <span>Assignment 6</span></a>
+            <nav aria-label="Main navigation">
+                <a href="index.html">Basics</a>
+                <a href="effects.html">Effects</a>
+                <a href="dom.html" aria-current="page">DOM</a>
+                <a href="animations.html">Animations</a>
+                <a href="project.html">Mini project</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <p class="eyebrow">PART 3 · TASKS 5–7</p>
+        <h1>DOM manipulation</h1>
+        <p class="intro">Update lists, attributes and form values.</p>
+
+        <section class="card">
+            <span class="task-label">Task 5</span>
+            <h2>Add and remove items</h2>
+            <ul id="item-list" class="demo item-list" aria-live="polite">
+                <li>Item 1</li>
+                <li>Item 2</li>
+            </ul>
+            <div class="buttons">
+                <button id="add-last" type="button">Add item last</button>
+                <button id="add-first" type="button">Add item first</button>
+                <button id="remove-last" type="button">Remove last item</button>
+            </div>
+            <p class="hint">Methods: <code>.append()</code>, <code>.prepend()</code>, <code>.remove()</code></p>
+        </section>
+
+        <section class="card">
+            <span class="task-label">Task 6</span>
+            <h2>Change attributes</h2>
+            <div class="image-stage">
+                <img id="attribute-image" class="demo-image" src="images/day.svg" alt="Mountains and a lake on a sunny day" width="360" height="220">
+            </div>
+            <div class="buttons">
+                <button id="change-image" type="button">Switch day / night</button>
+                <button id="change-link" type="button">Change link</button>
+            </div>
+            <p><a id="resource-link" href="https://api.jquery.com/" target="_blank" rel="noopener noreferrer">jQuery API documentation</a></p>
+            <p class="hint">Method: <code>.attr()</code> changes the image <code>src</code> and link <code>href</code>.</p>
+        </section>
+
+        <section class="card">
+            <span class="task-label">Task 7</span>
+            <h2>Live form preview</h2>
+            <p>Type a name and email. The preview updates as you type.</p>
+            <form id="profile-form">
+                <label for="name-input">Name</label>
+                <input id="name-input" name="name" type="text" placeholder="Enter a name" autocomplete="name">
+                <label for="email-input">Email</label>
+                <input id="email-input" name="email" type="email" placeholder="Enter an email" autocomplete="email">
+            </form>
+            <div class="demo live-preview" aria-live="polite">
+                <p><strong>Name:</strong> <span id="name-output">—</span></p>
+                <p><strong>Email:</strong> <span id="email-output">—</span></p>
+            </div>
+            <p class="hint">Methods: <code>.val()</code> reads the input; <code>.text()</code> displays it. Nothing is submitted.</p>
+        </section>
+    </main>
+
+    <footer class="container">Assignment 6 · jQuery selectors, effects and animations</footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

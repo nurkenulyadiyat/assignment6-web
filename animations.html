@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animations | jQuery Assignment 6</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <a class="brand" href="index.html">jQuery Practice <span>Assignment 6</span></a>
+            <nav aria-label="Main navigation">
+                <a href="index.html">Basics</a>
+                <a href="effects.html">Effects</a>
+                <a href="dom.html">DOM</a>
+                <a href="animations.html" aria-current="page">Animations</a>
+                <a href="project.html">Mini project</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <p class="eyebrow">PART 4 · TASKS 8–10</p>
+        <h1>Animations</h1>
+        <p class="intro">Watch position, size and opacity change.</p>
+
+        <section class="card">
+            <span class="task-label">Task 8</span>
+            <h2>Move and grow</h2>
+            <p>The square moves right and grows from 60 to 100 pixels.</p>
+            <div class="animation-stage" aria-label="Basic animation area">
+                <div id="basic-box" class="box" aria-label="Blue square"></div>
+            </div>
+            <div class="buttons">
+                <button id="animate-basic" type="button">Animate</button>
+                <button id="reset-basic" class="secondary" type="button">Reset</button>
+            </div>
+        </section>
+
+        <section class="card">
+            <span class="task-label">Task 9</span>
+            <h2>One step at a time</h2>
+            <p>Move right → move down → shrink → return to the original size and position.</p>
+            <div class="animation-stage" aria-label="Sequential animation area">
+                <div id="sequence-box" class="box teal" aria-label="Teal square"></div>
+            </div>
+            <div class="buttons">
+                <button id="animate-sequence" type="button">Play sequence</button>
+                <button id="reset-sequence" class="secondary" type="button">Reset</button>
+            </div>
+        </section>
+
+        <section class="card">
+            <span class="task-label">Task 10</span>
+            <h2>Everything together</h2>
+            <p>One animation changes position, size and opacity at the same time.</p>
+            <div class="animation-stage" aria-label="Combined animation area">
+                <div id="combined-box" class="box purple" aria-label="Purple square"></div>
+            </div>
+            <div class="buttons">
+                <button id="animate-combined" type="button">Play combined</button>
+                <button id="reset-combined" class="secondary" type="button">Reset</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="container">Assignment 6 · jQuery selectors, effects and animations</footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

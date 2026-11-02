@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini project | jQuery Assignment 6</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <a class="brand" href="index.html">jQuery Practice <span>Assignment 6</span></a>
+            <nav aria-label="Main navigation">
+                <a href="index.html">Basics</a>
+                <a href="effects.html">Effects</a>
+                <a href="dom.html">DOM</a>
+                <a href="animations.html">Animations</a>
+                <a href="project.html" aria-current="page">Mini project</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <p class="eyebrow">PART 5 · TASK 11</p>
+        <h1>jQuery study cards</h1>
+        <p class="intro">A small FAQ accordion for reviewing the basics.</p>
+
+        <section class="card">
+            <span class="task-label">Task 11 · Accordion menu</span>
+            <h2>Click a question to reveal the answer</h2>
+            <p>Click again to close it. Each section opens and closes independently.</p>
+
+            <div class="accordion">
+                <h3>
+                    <button id="question-1" class="accordion-button" type="button" aria-expanded="false" aria-controls="answer-1">01 · What is jQuery?</button>
+                </h3>
+                <div id="answer-1" class="accordion-panel" role="region" aria-labelledby="question-1">
+                    <p>jQuery is a JavaScript library that simplifies selecting elements, handling events and changing a web page.</p>
+                    <p>For example, a button can hide a paragraph with <code>.hide()</code>.</p>
+                </div>
+
+                <h3>
+                    <button id="question-2" class="accordion-button" type="button" aria-expanded="false" aria-controls="answer-2">02 · What is a selector?</button>
+                </h3>
+                <div id="answer-2" class="accordion-panel" role="region" aria-labelledby="question-2">
+                    <p>A selector tells jQuery which elements to work with.</p>
+                    <p><code>$("#title")</code> selects an ID, <code>$(".item")</code> selects a class, and <code>$("p")</code> selects paragraph tags.</p>
+                </div>
+
+                <h3>
+                    <button id="question-3" class="accordion-button" type="button" aria-expanded="false" aria-controls="answer-3">03 · What does .animate() do?</button>
+                </h3>
+                <div id="answer-3" class="accordion-panel" role="region" aria-labelledby="question-3">
+                    <p><code>.animate()</code> gradually changes numeric CSS properties, such as width, height, left and opacity.</p>
+                    <p>Several properties in one call change together. Chained calls run one after another by default.</p>
+                </div>
+            </div>
+            <p class="hint">This accordion uses <code>.slideToggle()</code> for a smooth opening and closing effect.</p>
+        </section>
+    </main>
+
+    <footer class="container">Assignment 6 · jQuery selectors, effects and animations</footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

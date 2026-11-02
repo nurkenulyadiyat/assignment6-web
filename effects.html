@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Effects | jQuery Assignment 6</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <a class="brand" href="index.html">jQuery Practice <span>Assignment 6</span></a>
+            <nav aria-label="Main navigation">
+                <a href="index.html">Basics</a>
+                <a href="effects.html" aria-current="page">Effects</a>
+                <a href="dom.html">DOM</a>
+                <a href="animations.html">Animations</a>
+                <a href="project.html">Mini project</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <p class="eyebrow">PART 2 · TASKS 2–4</p>
+        <h1>jQuery effects</h1>
+        <p class="intro">Show, hide, fade and slide elements.</p>
+
+        <section class="card">
+            <span class="task-label">Task 2</span>
+            <h2>Visibility</h2>
+            <div class="demo">
+                <p id="visibility-text">Hello! Use the buttons to hide or show this paragraph.</p>
+            </div>
+            <div class="buttons">
+                <button id="hide-text" type="button">Hide</button>
+                <button id="show-text" type="button">Show</button>
+                <button id="toggle-text" type="button">Toggle</button>
+            </div>
+            <p class="hint">Methods: <code>.hide()</code>, <code>.show()</code>, <code>.toggle()</code></p>
+        </section>
+
+        <section class="card">
+            <span class="task-label">Task 3</span>
+            <h2>Fade an image</h2>
+            <div class="image-stage">
+                <img id="fade-image" class="demo-image" src="images/day.svg" alt="Mountains and a lake on a sunny day" width="360" height="220">
+            </div>
+            <div class="buttons">
+                <button id="fade-in" type="button">Fade in</button>
+                <button id="fade-out" type="button">Fade out</button>
+                <button id="fade-toggle" type="button">Fade toggle</button>
+            </div>
+            <p class="hint">Methods: <code>.fadeIn()</code>, <code>.fadeOut()</code>, <code>.fadeToggle()</code></p>
+        </section>
+
+        <section class="card">
+            <span class="task-label">Task 4</span>
+            <h2>Collapsible panel</h2>
+            <div class="buttons">
+                <button id="slide-up" type="button">Slide up</button>
+                <button id="slide-down" type="button">Slide down</button>
+                <button id="slide-toggle" type="button">Slide toggle</button>
+            </div>
+            <div id="slide-panel" class="slide-panel">
+                <h3>A small study tip</h3>
+                <p>Change one thing at a time, run the page and observe the result.</p>
+            </div>
+            <p class="hint">Methods: <code>.slideUp()</code>, <code>.slideDown()</code>, <code>.slideToggle()</code></p>
+        </section>
+    </main>
+
+    <footer class="container">Assignment 6 · jQuery selectors, effects and animations</footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

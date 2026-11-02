@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="220" viewBox="0 0 360 220" role="img" aria-labelledby="title">
+  <title id="title">Mountains and a lake on a sunny day</title>
+  <rect width="360" height="220" fill="#dceeff"/>
+  <circle cx="285" cy="48" r="23" fill="#f7c763"/>
+  <path d="M0 156 95 49 185 156Z" fill="#7e9bb7"/>
+  <path d="m66 82 29-33 28 33-19-7-9 10-10-10Z" fill="#f8fbff"/>
+  <path d="M115 156 228 69 335 156Z" fill="#557a99"/>
+  <path d="m201 90 27-21 27 22-20-5-8 9-8-9Z" fill="#f8fbff"/>
+  <path d="M0 144Q65 122 119 147T230 147T360 137V220H0Z" fill="#79a68d"/>
+  <path d="M0 168Q80 157 180 174T360 165V220H0Z" fill="#8cc4d7"/>
+  <path d="M55 188h70m80 10h88" fill="none" stroke="#d7eff7" stroke-width="3" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="220" viewBox="0 0 360 220" role="img" aria-labelledby="title">
+  <title id="title">Mountains and a lake under the moon</title>
+  <rect width="360" height="220" fill="#202e53"/>
+  <circle cx="285" cy="48" r="23" fill="#f7eab8"/>
+  <circle cx="295" cy="39" r="21" fill="#202e53"/>
+  <g fill="#e4e9fa"><circle cx="35" cy="32" r="2"/><circle cx="160" cy="30" r="2"/><circle cx="215" cy="45" r="2"/><circle cx="326" cy="92" r="2"/></g>
+  <path d="M0 156 95 49 185 156Z" fill="#54648b"/>
+  <path d="m66 82 29-33 28 33-19-7-9 10-10-10Z" fill="#ccd6ed"/>
+  <path d="M115 156 228 69 335 156Z" fill="#3c4c76"/>
+  <path d="M0 144Q65 122 119 147T230 147T360 137V220H0Z" fill="#263e4c"/>
+  <path d="M0 168Q80 157 180 174T360 165V220H0Z" fill="#35567b"/>
+  <path d="M230 188h65m-50 11h42" fill="none" stroke="#8194b5" stroke-width="3" stroke-linecap="round"/>
+</svg>
